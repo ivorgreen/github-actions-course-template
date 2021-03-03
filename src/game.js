@@ -5,6 +5,7 @@ export default class Game {
     this.board = [[null, null, null], [null, null, null], [null, null, null]]
     this.player = Math.random() < 0.5 ? this.p1 : this.p2
     this.sym = 'X'
+    this.i = 'y'
   }
 
   turn (row, col) {
